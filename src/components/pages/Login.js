@@ -8,7 +8,7 @@ const Login = () => {
     setIsLogin((prev) => !prev);
   };
   const [response, setResponse] = useState(true);
-  const [role, setRole] = useState("admin");
+  const [role, setRole] = useState("user");
   const SignIn = () => (
     <>
       <div className=" mt-5 d-flex justify-content-center">
